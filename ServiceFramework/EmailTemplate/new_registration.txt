@@ -1,0 +1,15 @@
+﻿<p>
+</strong>Dear {0},</strong>
+<br/>
+</p>
+
+<p>You are requested to activate new user {1} .</p>
+
+<strong>Please click here: <a href='{2}' target='_blank'>to activate.</a></strong><br/>
+
+Kind regards
+<br/>
+Tirisan Team<br/>
+<br/>
+Business hours: Mon-Fri (08h00-17h00)<br/>
+</p>

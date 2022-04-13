@@ -1,0 +1,24 @@
+﻿USE [TimeLog]
+GO
+SET IDENTITY_INSERT [TimeLog].[dbo].[Role] ON 
+GO
+INSERT INTO [dbo].[Role] ([Id], [Name]) VALUES (1, N'Staff')
+GO
+
+INSERT INTO [dbo].[Role] ([Id], [Name]) VALUES (2,  N'Supervisor')
+GO
+
+INSERT INTO [dbo].[User] ([FullName]
+           ,[Email]
+           ,[Address]
+           ,[SupervisorId]
+           ,[RoleId]
+           ,[IsActive])
+     VALUES
+           ( N'Rendani'
+           ,N'rendani@tirisan.co.za'
+           ,N'1st R, Tirisan Avenue, JHB'
+           ,1
+           ,1
+           ,1)
+GO
